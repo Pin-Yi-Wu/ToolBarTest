@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/buttombaritemone"
+        android:icon="@drawable/one"
+        android:title="大廳">
+    </item>
+    <item android:id="@+id/buttombaritemtwo"
+        android:icon="@drawable/two"
+        android:title="真人">
+    </item>
+    <item android:id="@+id/buttombaritemthree"
+        android:icon="@drawable/three"
+        android:title="老虎機">
+    </item>
+    <item android:id="@+id/buttombaritemfour"
+        android:icon="@drawable/four"
+        android:title="BBIN">
+    </item>
+    <item android:id="@+id/buttombaritemfive"
+        android:icon="@drawable/five"
+        android:title="體育捕魚">
+    </item>
+    <item android:id="@+id/buttombaritemsix"
+        android:icon="@drawable/six"
+        android:title="我的">
+    </item>
+</menu>

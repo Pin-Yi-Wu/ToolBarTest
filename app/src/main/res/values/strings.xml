@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BottomNavigationViewSample</string>
+    <string name="inicio">大厅</string>
+    <string name="buscar">真人</string>
+    <string name="camara">老虎机</string>
+    <string name="favoritos">综合</string>
+    <string name="perfil">我的</string>
+    <string name="Matching">Matching</string>
+    <string name="Watchlist">Watchlist</string>
+    <string name="Listing">Listing</string>
+    <string name="Deals">Deals</string>
+    <string name="Rates">Rates</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

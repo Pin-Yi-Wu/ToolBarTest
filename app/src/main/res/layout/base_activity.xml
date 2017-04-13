@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:elevation="10dp"
+    android:background="@color/white"
+    android:id="@+id/bottonNavBar"
+    android:paddingTop="5dp"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:foregroundGravity="bottom"
+  >
+
+
+    <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="false">
+
+        <RadioButton
+            android:id="@+id/matching"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="false"
+            android:drawableTop="@drawable/ic_home"
+            android:gravity="center"
+            android:padding="2dp"
+            android:text="@string/Matching"
+            android:textColor="@color/bb_darkBackgroundColor"
+            android:textSize="12sp" />
+
+        <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/ic_search"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:id="@+id/watchList"
+                android:text="@string/Watchlist"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/rates"
+                android:button="@null"
+                android:paddingTop="5dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/ic_camera_alt"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:text="@string/Rates"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/ic_favorite"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:id="@+id/deals"
+                android:text="@string/Deals"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/ic_person"
+                android:textColor="@color/bb_darkBackgroundColor"
+                android:id="@+id/listing"
+                android:text="@string/Listing"/>
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dynamicContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="56dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+</LinearLayout>

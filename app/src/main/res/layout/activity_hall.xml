@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mina.toolbartest.HallActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="23dp"
+                android:layout_marginRight="23dp"
+                android:text="提款"
+                app:layout_constraintBaseline_toBaselineOf="@+id/button4"
+                app:layout_constraintRight_toLeftOf="@+id/button4"
+                tools:layout_constraintBaseline_creator="1"
+                tools:layout_constraintRight_creator="1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="8dp"
+                android:text="隱藏"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/textView2"
+                app:layout_constraintRight_toLeftOf="@+id/btnsignup2"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_constraintTop_creator="1" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="37dp"
+                android:layout_marginRight="37dp"
+                android:layout_marginTop="10dp"
+                android:text="轉帳"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnsignup2"
+                tools:layout_constraintTop_creator="1" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="68dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="68dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="活動"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/textView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="105dp"
+                android:layout_height="34dp"
+                android:layout_marginBottom="17dp"
+                android:layout_marginLeft="122dp"
+                android:layout_marginStart="122dp"
+                android:layout_marginTop="14dp"
+                android:text="帳戶餘額"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView3"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <Button
+                android:id="@+id/btnsignup2"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="3dp"
+                android:text="下拉"
+                app:layout_constraintRight_toRightOf="@+id/btnforget"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                tools:layout_constraintTop_creator="1" />
+
+            <Button
+                android:id="@+id/btnforget"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="19dp"
+                android:layout_marginTop="8dp"
+                android:text="客服"
+                app:layout_constraintHorizontal_bias="0.625"
+                app:layout_constraintLeft_toRightOf="@+id/button"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="88dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="61dp"
+                android:text="充值"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="230dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="77dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="77dp"
+                android:layout_marginTop="9dp"
+                android:text="1234567.00"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="@+id/btnsignup2"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/btnsignup2"
+                app:layout_constraintTop_toBottomOf="@+id/button5"
+                app:layout_constraintVertical_bias="0.0"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintTop_creator="1" />
+        </android.support.constraint.ConstraintLayout>
+
+        <FrameLayout
+            android:layout_width="420dp"
+            android:layout_height="156dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_constraintBottom_creator="1"
+            tools:layout_constraintLeft_creator="1"
+            tools:layout_constraintRight_creator="1"
+            tools:layout_constraintTop_creator="1">
+
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="43dp"
+                android:layout_gravity="bottom"
+                android:background="#33000000"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="图片标题"
+                    android:textColor="@android:color/white" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dip"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:id="@+id/dot_0"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_black" />
+
+                    <View
+                        android:id="@+id/dot_1"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_white" />
+
+                    <View
+                        android:id="@+id/dot_2"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_white" />
+
+                    <View
+                        android:id="@+id/dot_3"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_white" />
+
+                    <View
+                        android:id="@+id/dot_4"
+                        android:layout_width="5dip"
+                        android:layout_height="5dip"
+                        android:layout_marginLeft="2dip"
+                        android:layout_marginRight="2dip"
+                        android:background="@drawable/dot_white" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp"
+                android:layout_width="wrap_content"
+                android:layout_height="142dp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/infoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello World!"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="200dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:layout_gravity="top"
+                android:background="@drawable/shadow" />
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/bottomNavigationView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:itemBackground="@color/colorAccent"
+                app:itemIconTint="@color/itemselet"
+                app:itemTextColor="@color/itemselet"
+                design:menu="@menu/menu_navigation" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
